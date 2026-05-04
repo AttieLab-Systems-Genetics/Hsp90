@@ -8,3 +8,7 @@ Data and results (qmd and pptx) are not stored in GitHub.
 - [R script to Create Plots and PowerPoint](Hsp90_GTT.R)
 - [Prompts to Update Data](update_prompts.md)
 - [R script to Update Data](create_master.R)
+
+The [prompt.md](prompt.md) file has the history of its construction,
+starting with a set of prompts developed by Alan Attie and Diana Esparza on
+a Monday, which were updated on that Wednesday by Brian Yandell and Diana Esparza. You can look at the `blame` or `history` of that document to learn more.
