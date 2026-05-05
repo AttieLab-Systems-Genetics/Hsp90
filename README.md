@@ -25,8 +25,8 @@ The data were updated in their source files, which means the `master` file
 would need to be updated.
 This is a tedious and error-prone process.
 To address this, the
-[update_data.md](update_data.md) prompt was used to create
-[create_master.R](create_master.R) and the updated "master" file.
+`update_data.md` prompt was used to create
+`create_master.R` and the updated "master" file.
 
 ## This Repo
 
