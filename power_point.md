@@ -1,8 +1,8 @@
 # R Analysis Prompt History
 
-**Date:** 2026-03-19 (Alan Attie, Diana Esparza)
+**Date:** 2026-03-19 (Alan Attie, Diana Esparza).
 Updated 2026-03-25 (Brian Yandell, Diana Esparza)
-and 2026-05-05 (Brian Yandell)
+and 2026-05-05 (Brian Yandell).
 
 **Prompt:**
 
