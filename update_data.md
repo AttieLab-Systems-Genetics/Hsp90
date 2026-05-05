@@ -6,21 +6,25 @@ This walkthrough summarizes the successful implementation of the data merging pi
 
 **Prompt 1:**
 > Initial data files in `data/` are
-> 
+>
 > - `B6 NDNB25 in vivo data.xlsx`
 > - `NZO NDNB-25.xlsx`
-> 
+>
 > They were used to (by hand) create `NDNB-25 B6 and NZO Masterdate sheet v2 R.xlsx`.
 > These files have been updated recently.
 > Develop an R script that will take these two initial files and create the master data sheet `NDNB-25 B6 and NZO Masterdate sheet v2 R.xlsx` automatically.
 > However, save a copy of the original `NDNB-25 B6 and NZO Masterdate sheet v2 R.xlsx` as `NDNB-25 B6 and NZO Masterdate sheet v2 R_orig.xlsx`.
 
 **Prompt 2:**
-> Save this walkthrough as update_data.md, including the prompts used to update the data.
+> Save this walkthrough as `update_data.md`, including the prompts used to update the data.
+
+**Prompt 3:**
+> Do the steps listed in `power_point.md`, reusing `R/Hsp90_GTT.R` and `data/NDNB-25 B6 and NZO Masterdate sheet v2 R.xlsx`.
+> First save the previous presentation (`.qmd` and `.pptx`) using a name that includes the date.
 
 ## 1. Automated Master Data Sheet Generation (`create_master.R`)
 
-Developed a reproducible data-cleaning script that fully automates the creation of the Master Data Sheet directly from the raw experimental files (`B6 NDNB25 in vivo data.xlsx` and `NZO NDNB-25.xlsx`). 
+Developed a reproducible data-cleaning script that fully automates the creation of the Master Data Sheet directly from the raw experimental files (`B6 NDNB25 in vivo data.xlsx` and `NZO NDNB-25.xlsx`).
 
 - **Data Alignment:** The script systematically extracts static metadata, renames non-standard headings, resolves label inconsistencies between strains, and handles complex Excel structural idiosyncrasies (e.g. converting injection dates mislabeled under "first day injection weight").
 - **GTT Time-Course Reshaping:** Automatically extracts the long-format time course values from the irregular `GTTs` sub-sheets, properly handles manually entered `"off curve high"` outliers by coercing them to `NA`, and pivots the dataset into the wide 29-column format standardized in the original repository structure.

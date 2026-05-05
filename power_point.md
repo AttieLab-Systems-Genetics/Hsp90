@@ -1,14 +1,25 @@
 # R Analysis Prompt History
 
-*Date: 2026-03-19* (Updated: 2026-03-25)
+**Date:** 2026-03-19 (Alan Attie, Diana Esparza)
+Updated 2026-03-25 (Brian Yandell, Diana Esparza)
+and 2026-05-05 (Brian Yandell)
 
-**Execution Prompt Used:** "Run the prompt and do all the steps listed in prompt.md. Make sure all software needed is installed."
+**Prompt:**
 
-Here is a consolidated record of the instructions used to build the `Hsp90_GTT.R` data analysis pipeline. They have been refined and grouped to reduce duplication while accurately capturing the complete workflow requirements.
+- Do all the steps listed in `power_point.md`.
+- Save the R script `[script.R]` as `R/Hsp90_GTT.R`.
+- Use `[data.xlsx]` from `data/NDNB-25 B6 and NZO Masterdate sheet v2 R.xlsx`.
+- Make sure all software needed is installed.
+
+**Description:**
+Here is a consolidated record of the instructions used to build the
+`[script.R]` data analysis pipeline.
+They have been refined and grouped to reduce duplication while accurately
+capturing the complete workflow requirements.
 
 ### 1. Data Initialization
 >
-> We will be analyzing Glucose Tolerance Test (GTT) data from this master spreadsheet: `'NDNB-25 B6 and NZO Masterdate sheet v2 R.xlsx'`.
+> Analyze Glucose Tolerance Test (GTT) data from `[data.xlsx]`.
 
 ### 2. Time-Course Line Graphs (Glucose, Insulin, & Log Ratio)
 >
