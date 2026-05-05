@@ -34,7 +34,7 @@ This repo was created to track the development of the
 `power_point.md` and `update_data.md` files.
 It started as a simple folder with
 `power_point.md` (originally `prompt.md`)
-and `the`data/` folder
+and the `data/` folder
 and has grown since.
 
 Folder organization (local copies not stored in GitHub):
