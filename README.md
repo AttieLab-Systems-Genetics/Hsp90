@@ -46,7 +46,7 @@ Folder organization (local copies not stored in GitHub):
 - `R/` - R scripts
   - `Hsp90_GTT.R`
   - `create_master.R`
-- `previous/` - Previous plots, `.qmd` and `.pptx` files (saved before updates)
+- `previous/` - Previous plots, `.qmd` and `.pptx` files (local copies saved before updates)
 - `plots/` - Generated plots (local copy)
 - `presentation.qmd` and `.pptx` files (local copies)
 - `README.md` (this file)
